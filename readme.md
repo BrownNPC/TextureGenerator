@@ -1,0 +1,1 @@
+# A python tool to convert minetest textures to a combined texture that I can put on 3d models, so I can use them in roblox as meshes
