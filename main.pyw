@@ -1,7 +1,5 @@
-
 import flet as ft
 from PIL import Image
-import time
 import os
 
 class TextureManager:
