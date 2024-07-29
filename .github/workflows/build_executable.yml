@@ -29,10 +29,10 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Setup Python 3.10.13
+    - name: Setup Python 3.10
       uses: actions/setup-python@v2
       with:
-        python-version: Python 3.10.13
+        python-version: Python 3.10
 
     - name: Install Python Dependencies
       run: |
@@ -63,10 +63,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
   
-      - name: Setup Python 3.10.13
+      - name: Setup Python 3.10
         uses: actions/setup-python@v2
         with:
-          python-version: Python 3.10.13
+          python-version: Python 3.10
   
       - name: Install Python Dependencies
         run: |
